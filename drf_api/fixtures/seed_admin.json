@@ -1,0 +1,11 @@
+[
+        {
+          "model": "drf_api.User",
+          "pk": 5,
+          "fields": {
+            "username":"",
+            "email":"seed.admin@gmail.com",
+            "password":"SeedAdmin@123"
+          }
+        }
+    ]
