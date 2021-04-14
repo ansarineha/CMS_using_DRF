@@ -3,6 +3,19 @@
 I have developed  a Content Management System API using Django Rest Framework which is used to manage the creation and modification of digital content.
 The CMS is having two level of user role "Admin" and "User".
 
+### How to run application in your system:
+1. Create virtual environment in the root directory by using.
+   > py -m venv env
+2. Now activate the virtual environment by using.
+   > env/Scripts/activate
+   (this should activate the virtual environment on your system)
+3. Install all the dependencies.
+   All the dependencies which project requires are consolidated in requirements.txt file, so to install them simply use.
+   > pip install -r requirements.txt
+4. Now finally run the application by using following command.
+   > python manage.py runserver 
+   (and you should see the app in action on http://localhost:8000/)
+
 ### User Credentials to check the API:
 email: user1@gmail.com </br>
 password: Pass@123
